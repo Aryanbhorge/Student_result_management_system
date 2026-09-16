@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Students</title>
+    <link rel="stylesheet" href="view-students.css">
+</head>
+<body>
+
+    <header id="header">
+
+        <h1>Student Result Management System</h1>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a> |
+            <a href="add-student.html">Add Student</a> |
+            <a href="view-students.html">View Students</a> |
+            <a href="add-result.html">Add Result</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2>All Students</h2>
+
+        <form id="searchForm" action="#" method="get">
+
+            <label>Search Student:</label>
+
+            <input
+                type="search"
+                name="search"
+                placeholder="Roll Number or Name"
+            >
+
+            <button type="submit">
+                Search
+            </button>
+
+        </form>
+
+        <br>
+
+        <table class="table-result" border="1">
+
+            <thead>
+
+                <tr>
+                    <th>ID</th>
+                    <th>Roll Number</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Semester</th>
+                    <th>Division</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>1</td>
+                    <td>101</td>
+                    <td>Aryan Bhorge</td>
+                    <td>Computer Engineering</td>
+                    <td>5th Semester</td>
+                    <td>A</td>
+
+                    <td>
+
+                        <a href="result.html">
+                            View Result
+                        </a>
+
+                        |
+
+                        <a href="add-student.html">
+                            Edit
+                        </a>
+
+                        |
+
+                        <button type="button">
+                            Delete
+                        </button>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </main>
+
+</body>
+</html>

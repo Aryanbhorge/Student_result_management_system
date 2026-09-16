@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Result</title>
+    <link rel="stylesheet" href="add-result.css">
+</head>
+<body>
+
+    <header id="header">
+
+        <h1>Student Result Management System</h1>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a> |
+            <a href="add-student.html">Add Student</a> |
+            <a href="view-students.html">View Students</a> |
+            <a href="add-result.html">Add Result</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2>Add Student Result</h2>
+
+        <form action="#" method="post">
+
+            <label>Student Roll Number:</label><br>
+
+            <input
+                type="text"
+                name="roll_no"
+                required
+            >
+
+            <br><br>
+
+            <label>Student Name:</label><br>
+
+            <input
+                type="text"
+                name="student_name"
+                required
+            >
+
+            <br><br>
+
+            <table border="1">
+
+                <thead>
+
+                    <tr>
+                        <th>Subject</th>
+                        <th>Maximum Marks</th>
+                        <th>Obtained Marks</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>
+                            <input
+                                type="text"
+                                name="subject1"
+                                value="Java Programming"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="max1"
+                                value="100"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="marks1"
+                                min="0"
+                                max="100"
+                            >
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            <input
+                                type="text"
+                                name="subject2"
+                                value="Database Management"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="max2"
+                                value="100"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="marks2"
+                                min="0"
+                                max="100"
+                            >
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            <input
+                                type="text"
+                                name="subject3"
+                                value="Web Development"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="max3"
+                                value="100"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="marks3"
+                                min="0"
+                                max="100"
+                            >
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            <input
+                                type="text"
+                                name="subject4"
+                                value="Software Testing"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="max4"
+                                value="100"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="marks4"
+                                min="0"
+                                max="100"
+                            >
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            <input
+                                type="text"
+                                name="subject5"
+                                value="Data Analytics"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="max5"
+                                value="100"
+                            >
+                        </td>
+
+                        <td>
+                            <input
+                                type="number"
+                                name="marks5"
+                                min="0"
+                                max="100"
+                            >
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <br>
+
+            <button id="saveResult" type="submit">
+                Save Result
+            </button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

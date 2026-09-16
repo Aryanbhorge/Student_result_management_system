@@ -1,0 +1,30 @@
+.header{
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+#loginForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #090810;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+}
+a {
+    text-decoration: underline;
+    color: #4CAF50;
+    a{
+        text-align: center;
+    }
+}
+#loginButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

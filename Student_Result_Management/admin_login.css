@@ -1,0 +1,31 @@
+.header{
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    flex-direction: row;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #292020;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+   
+}
+h2 {
+    text-align: center;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a {
+    text-decoration: underline;
+    color: #4CAF50;
+}

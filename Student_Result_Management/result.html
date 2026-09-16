@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Student Result</title>
+    <link
+        rel="stylesheet"
+        href="result.css"
+>
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <h1>Student Result Management System</h1>
+
+        <nav>
+
+            <a href="dashboard.html">
+                Dashboard
+            </a>
+
+            |
+
+            <a href="student-dashboard.html">
+                Student Dashboard
+            </a>
+
+            |
+
+            <a href="result.html">
+                Result
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <h2>Student Result</h2>
+
+
+        <section>
+
+            <h3>Student Information</h3>
+
+            <p>
+                <strong>Name:</strong>
+                Aryan Bhorge
+            </p>
+
+            <p>
+                <strong>Roll Number:</strong>
+                101
+            </p>
+
+            <p>
+                <strong>Course:</strong>
+                Computer Engineering
+            </p>
+
+            <p>
+                <strong>Semester:</strong>
+                5th Semester
+            </p>
+
+            <p>
+                <strong>Division:</strong>
+                A
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <section>
+
+            <h3>Subject-wise Result</h3>
+
+            <table class="result-table" border="1">
+
+                <thead>
+
+                    <tr>
+                        <th>Subject</th>
+                        <th>Maximum Marks</th>
+                        <th>Obtained Marks</th>
+                        <th>Grade</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Java Programming</td>
+                        <td>100</td>
+                        <td>85</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>Database Management</td>
+                        <td>100</td>
+                        <td>78</td>
+                        <td>B+</td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Development</td>
+                        <td>100</td>
+                        <td>92</td>
+                        <td>A+</td>
+                    </tr>
+
+                    <tr>
+                        <td>Software Testing</td>
+                        <td>100</td>
+                        <td>74</td>
+                        <td>B+</td>
+                    </tr>
+
+                    <tr>
+                        <td>Data Analytics</td>
+                        <td>100</td>
+                        <td>88</td>
+                        <td>A</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <br>
+
+
+        <section id="result-summary">
+
+            <h3>Result Summary</h3>
+
+            <p>
+                <strong>Total Marks:</strong>
+                417 / 500
+            </p>
+
+            <p>
+                <strong>Percentage:</strong>
+                83.40%
+            </p>
+
+            <p>
+                <strong>Overall Grade:</strong>
+                A
+            </p>
+
+            <p>
+                <strong>Final Result:</strong>
+                PASS
+            </p>
+
+        </section>
+
+
+        <br>
+
+        <button type="button" id="saveResult" onclick="saveResult()">
+            Save Result
+        </button>
+
+    </main>
+
+
+    <footer>
+
+        <hr>
+
+        <p>
+            © 2026 Student Result Management System
+        </p>
+
+    </footer>
+
+</body>
+</html>

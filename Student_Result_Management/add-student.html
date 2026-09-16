@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="add-student.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <h1>Student Result Management System</h1>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a> |
+            <a href="add-student.html">Add Student</a> |
+            <a href="view-students.html">View Students</a> |
+            <a href="add-result.html">Add Result</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2>Add New Student</h2>
+
+        <form id="addStudentForm" action="#" method="post">
+
+            <label>Roll Number:</label><br>
+            <input type="text" name="roll_no" required>
+            <br><br>
+
+            <label>Student Name:</label><br>
+            <input type="text" name="student_name" required>
+            <br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email">
+            <br><br>
+
+            <label>Phone:</label><br>
+            <input type="tel" name="phone">
+            <br><br>
+
+            <label>Course:</label><br>
+
+            <select name="course">
+
+                <option value="Computer Engineering">
+                    Computer Engineering
+                </option>
+
+                <option value="Information Technology">
+                    Information Technology
+                </option>
+
+                <option value="Mechanical Engineering">
+                    Mechanical Engineering
+                </option>
+
+                <option value="Civil Engineering">
+                    Civil Engineering
+                </option>
+
+            </select>
+
+            <br><br>
+
+            <label>Semester:</label><br>
+
+            <select name="semester">
+
+                <option>1st Semester</option>
+                <option>2nd Semester</option>
+                <option>3rd Semester</option>
+                <option>4th Semester</option>
+                <option>5th Semester</option>
+                <option>6th Semester</option>
+
+            </select>
+
+            <br><br>
+
+            <label>Division:</label><br>
+            <input type="text" name="division">
+            <br><br>
+
+            <label>Student Password:</label><br>
+            <input type="password" name="password" required>
+            <br><br>
+
+            <button id="addStudentButton" type="submit">
+                Add Student
+            </button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
